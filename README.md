@@ -1,12 +1,52 @@
-# Getting Started with Create React App
+# bike-index-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Single Page application to search **Bikes** by City name and see more details about it.
 
-## Available Scripts
+Application url: \***\*\_\_\*\***
+
+## Functional details
+
+### Features
+
+- Search by city name
+- List of Bikes with Link to details page
+- Details page with information about bike and stolen information
+- Back Link from details to search results
+- Deep link for refresh , sharing link and bookmarking
+- Date formatting as per localisation
+- Accessibile complaint
+
+### Improvements
+
+- Localisation/Internalisation for multilingual support
+- Paging/Load more functionality for search results
+- Advanced filters next to city name, supported as per [bikeindex API](https://bikeindex.org/documentation/api_v3#!/search/GET_version_search_format_get_0) like status, color, zipcode etc..
+
+## Technical details
+
+### Features
+
+- React library features like Fuctional features, Hooks, Custom hooks, Error Boundaries
+- Routing with [react-router v6](https://reactrouter.com/en/main)
+- Skeleton on page load for
+- Lazy loading of Details page
+- Unit testcases with Jest, eslint and prettier
+
+### Improvements
+
+- [Virtualize Long Lists](https://reactjs.org/docs/optimizing-performance.html#virtualize-long-lists)
+- Caching?
+- PWA and Service workers
+- Web Analytics
+- Monitoring and Logging
+
+### Running app on local
+
+#### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+##### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +54,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+##### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+##### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +69,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+##### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -39,7 +79,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+#### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
