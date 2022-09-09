@@ -2,7 +2,7 @@
 
 Single Page application to search **Bikes** by City name and see more details about it.
 
-Application url: \***\*\_\_\*\***
+Application url: https://bike-index-react-app.vercel.app/
 
 ## Functional details
 
@@ -14,7 +14,7 @@ Application url: \***\*\_\_\*\***
 - Back Link from details to search results
 - Deep link for refresh , sharing link and bookmarking
 - Date formatting as per localisation
-- Accessibile complaint
+- Accessibility complaint
 
 ### Improvements
 
@@ -35,7 +35,6 @@ Application url: \***\*\_\_\*\***
 ### Improvements
 
 - [Virtualize Long Lists](https://reactjs.org/docs/optimizing-performance.html#virtualize-long-lists)
-- Caching?
 - PWA and Service workers
 - Web Analytics
 - Monitoring and Logging
